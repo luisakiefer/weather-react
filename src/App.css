@@ -8,6 +8,10 @@ ul {
   line-height: 23px;
 }
 
+footer {
+  text-align: center;
+  font-size: 14px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;

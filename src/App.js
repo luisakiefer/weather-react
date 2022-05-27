@@ -10,6 +10,15 @@ function App() {
           <Weather />
         </div>
       </div>
+      <footer>
+        <small>
+          This React Weather App is open-source and was coded by{" "}
+          <a href="https://github.com/luisakiefer/weather-react">
+            Luísa Kiefer
+          </a>
+          .{" "}
+        </small>
+      </footer>
     </div>
   );
 }

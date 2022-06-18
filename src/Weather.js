@@ -31,6 +31,7 @@ export default function Weather() {
     setCity(event.target.value);
   }
 
+
   return (
     <div className="Weather">
       <div>
@@ -46,7 +47,7 @@ export default function Weather() {
         <h3>{city}</h3>
         <ul>
           <li>
-            <FormattedDate date={props} />
+           
           </li>
           <li className="description">{weather.description}</li>
         </ul>
